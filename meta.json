@@ -1,0 +1,46 @@
+{
+  "inputs": [
+    {
+      "id": "gif_id",
+      "title": "Gif ID",
+      "type": "csv",
+      "description": "Array of Id's of gifs."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "id",
+      "title": "ID"
+    },
+    {
+      "id": "url",
+      "title": "URL"
+    },
+    {
+      "id": "bitly_gif_url",
+      "title": "Bitly Gif URL"
+    },
+    {
+      "id": "embed_url",
+      "title": "Embed URL"
+    },
+    {
+      "id": "username",
+      "title": "Username"
+    },
+    {
+      "id": "rating",
+      "title": "Rating"
+    },
+    {
+      "id": "images/downsized",
+      "title": "Downsized Image"
+    },
+    {
+      "id": "images/original",
+      "title": "Original Image"
+    }
+  ],
+  "icon": "dex-giphy",
+  "title": "Giphy get GIFs by IDs"
+}
